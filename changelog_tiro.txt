@@ -3,7 +3,28 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
-===== 2026-03-22 =====
+===== 2026-11-01 =====
 
-• ReSukisu 更新 4.1.0-7dab6c50
-• 调整 GPU 降压幅度，避免部分游戏花屏
+• 首个安卓 17 版本 RisingOS
+• 从安卓 16 移植 Pop 小窗
+• 修复 Shortcut 触发、上划手势触发、侧边栏触发、三击状态栏触发
+• 保留旧的 lmo 自由窗口并支持和 Pop 小窗相互切换启动模式
+• 大部分的汉化
+• 修复状态栏歌词 Hook 音乐软件
+• 修复支付宝聊天界面崩溃
+• 给默认桌面增加自定义图标行列数、上划手势触发距离、触发震动反馈、下划最近任务卡片锁定应用后台
+• 修复未加密 data 状态下的 OTA 更新
+• 修复 Recovery 模式安装任何 zip 报错
+• 修复最近任务面板 Shortcut 和 三击状态栏触发启动的 Pop 小窗默认的窗口大小不一致问题
+
+• First Android 17 build RisingOS
+• Ported Pop mini-window from android 16
+• Fixed Pop mini-window triggering via shortcut, swipe-up gesture, sidebar, and triple-tap on the status bar
+• Kept the legacy LMO freeform window and added support for switching launch modes between it and the Pop mini-window
+• Completed most of the Chinese localization
+• Fixed status bar lyrics hooking into music apps
+• Fixed Alipay chat interface crash
+• Added customizable icon rows/columns, swipe-up gesture trigger distance, and haptic feedback on trigger to the default launcher; added swipe-down on recent task cards to lock apps in the background
+• Fixed OTA updates when data is unencrypted
+• Fixed the error when installing any ZIP in recovery mode
+• Fixed inconsistent default window sizes of the Pop mini-window when launched via the Recents panel shortcut and the triple-tap status bar trigger
