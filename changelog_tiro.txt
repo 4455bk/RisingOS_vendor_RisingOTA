@@ -3,28 +3,18 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
-===== 2026-11-01 =====
+===== 2026-11-11 =====
 
-• 首个安卓 17 版本 RisingOS
-• 从安卓 16 移植 Pop 小窗
-• 修复 Shortcut 触发、上划手势触发、侧边栏触发、三击状态栏触发
-• 保留旧的 lmo 自由窗口并支持和 Pop 小窗相互切换启动模式
-• 大部分的汉化
-• 修复状态栏歌词 Hook 音乐软件
-• 修复支付宝聊天界面崩溃
-• 给默认桌面增加自定义图标行列数、上划手势触发距离、触发震动反馈、下划最近任务卡片锁定应用后台
-• 修复未加密 data 状态下的 OTA 更新
-• 修复 Recovery 模式安装任何 zip 报错
-• 修复最近任务面板 Shortcut 和 三击状态栏触发启动的 Pop 小窗默认的窗口大小不一致问题
+• 同步最新源码和新功能
+• 十一月安全补丁
+• 修复了动态刷新率无操作闲时刷新率不降到 60hz 的问题
+• 修复了解锁屏幕 250 毫秒后刷新率短暂掉到 60hz 的问题，也就是解锁卡顿问题
+• 修复红魔 9Pro 的 RGB 灯控制、增加风扇温控功能、增加肩键映射功能、修复充电分离和充电控制的状态同步、游戏空间快捷面板增加红魔功能磁贴
+• 修复应用启动关闭动画期间图标包失效
 
-• First Android 17 build RisingOS
-• Ported Pop mini-window from android 16
-• Fixed Pop mini-window triggering via shortcut, swipe-up gesture, sidebar, and triple-tap on the status bar
-• Kept the legacy LMO freeform window and added support for switching launch modes between it and the Pop mini-window
-• Completed most of the Chinese localization
-• Fixed status bar lyrics hooking into music apps
-• Fixed Alipay chat interface crash
-• Added customizable icon rows/columns, swipe-up gesture trigger distance, and haptic feedback on trigger to the default launcher; added swipe-down on recent task cards to lock apps in the background
-• Fixed OTA updates when data is unencrypted
-• Fixed the error when installing any ZIP in recovery mode
-• Fixed inconsistent default window sizes of the Pop mini-window when launched via the Recents panel shortcut and the triple-tap status bar trigger
+• Sync the latest source code and new features
+• November security patch
+• Fixed the issue where the dynamic refresh rate does not drop to 60Hz when idle with no interaction
+• Fixed the issue where the refresh rate briefly drops to 60Hz 250 milliseconds after unlocking the screen, i.e., the unlock stutter issue
+• Fixed RGB light control for the Red Magic 9 Pro, added fan temperature control, added shoulder key mapping, fixed state synchronization for charging separation and charging control, and added Red Magic function tiles to the Game Space quick panel
+• Fixed the icon pack failing during the app launch/close animation
