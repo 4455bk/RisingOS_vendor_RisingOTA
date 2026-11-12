@@ -5,14 +5,44 @@ Device maintainer: Runds
 
 ===== 2026-11-12 =====
 
+今天第二次更新
+大概是红魔 9Pro 第一个硬件完全适配的类原生？
+
 • 同步最新源码和新功能
 • 十一月安全补丁
-• 修复了动态刷新率无操作闲时刷新率不降到 60hz 的问题
+• 修复了动态刷新率无操作闲时刷新率不降到 60hz 的问题，闲时超时改成 8 秒，避免频繁切换
 • 修复了解锁屏幕 250 毫秒后刷新率短暂掉到 60hz 的问题，也就是解锁卡顿问题
 • 修复应用启动关闭动画期间图标包失效
+• 让侧边栏的应用图标也适配桌面自定义图标包
+• 重新加回 RisingWalls 并汉化
+• 删除重复的网络流量监视器入口
 
-• Sync the latest source code and new features
-• November security patch
-• Fixed the issue where the dynamic refresh rate does not drop to 60Hz when idle with no interaction
-• Fixed the issue where the refresh rate briefly drops to 60Hz 250 milliseconds after unlocking the screen, i.e., the unlock stutter issue
-• Fixed the icon pack failing during the app launch/close animation
+红魔 9Pro 相关：
+• 修复 RGB 灯控制
+• 增加风扇温控功能
+• 增加肩键映射功能 (重写了一个原生 C++ 代码 NubiaTouchMerger 触控管理，适配内核的 goodix 触控驱动，肩键映射不会与真实触控冲突)
+• 修复充电分离和 Lineage Health 充电控制的状态同步 (因为控制的是同一个内核节点)
+• 游戏空间快捷面板增加红魔功能磁贴
+• 修复风扇温控优先级，避免被锁屏解锁偶尔越过温控自动打开风扇
+• 修复充电分离通知，让其跟随开关状态，避免无故弹出
+
+Second update today
+Probably the first near-stock (AOSP-like) ROM with fully adapted hardware for the Red Magic 9 Pro?
+
+*Synced the latest source code and new features
+*November security patch
+*Fixed the issue where the dynamic refresh rate does not drop to 60Hz when idle with no interaction; the idle timeout has been changed to 8 seconds to avoid frequent switching
+*Fixed the issue where the refresh rate briefly drops to 60Hz 250 milliseconds after unlocking the screen, i.e., the unlock stutter issue
+*Fixed the icon pack failing during the app launch/close animation
+*Made the sidebar app icons also adapt to the desktop's custom icon packs
+*Re-added RisingWalls
+*Removed the duplicate network traffic monitor entry
+
+Red Magic 9 Pro related:
+*Fixed RGB light control
+*Added fan temperature control
+*Added shoulder key mapping (rewrote a native C++ touch manager, NubiaTouchMerger, adapted to the kernel's goodix touch driver, so shoulder key mapping will not conflict with real touch input)
+*Fixed state synchronization between charging separation and Lineage Health charging control (since they control the same kernel node)
+*Added Red Magic function tiles to the Game Space quick panel
+*Fixed the fan temperature control priority to prevent it from occasionally bypassing temperature control and automatically turning on the fan during lock/unlock
+*Fixed the charging separation notification so it follows the switch state and no longer pops up without reason
