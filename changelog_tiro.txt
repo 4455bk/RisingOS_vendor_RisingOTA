@@ -3,6 +3,12 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
+===== 2026-11-13 =====
+
+• 新增通知灯效和灯效颜色选择
+
+• Added notification light effects and light effect color selection
+
 ===== 2026-11-12 =====
 
 今天第二次更新
