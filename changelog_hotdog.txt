@@ -3,6 +3,14 @@ Build type: Monthly
 Device: OnePlus 7T Pro
 Device maintainer: Runds
 
+===== 2026-11-14 =====
+
+• 同步最新源码和新功能
+• 启用窗口级模糊
+
+• Synced the latest source code and new features
+• Enable blur
+
 ===== 2026-11-12 =====
 
 今天第二次更新
