@@ -3,6 +3,14 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
+===== 2026-11-14 =====
+
+• 同步最新源码和新功能
+• 启用窗口级模糊
+
+• Synced the latest source code and new features
+• Enable blur
+
 ===== 2026-11-13 =====
 
 • 新增通知灯效和灯效颜色选择
