@@ -3,6 +3,14 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
+===== 2026-11-15 =====
+
+• 修复肩键映射界面在暗色主题下显示异常
+• 电池设置电压显示支持双电芯电压
+
+• Fixed the shoulder key mapping interface displaying incorrectly under dark theme
+• Battery settings voltage display now supports dual-cell voltage
+
 ===== 2026-11-14 =====
 
 • 同步最新源码和新功能
