@@ -3,6 +3,30 @@ Build type: Monthly
 Device: OnePlus 7 Pro
 Device maintainer: Runds
 
+===== 2026-11-16 =====
+
+• 同步最新源码和新功能
+• 补充电池数据详细信息汉化、自定义锁屏部件汉化
+• 修复 PopUp 小窗挂起位置，现在可以记录上一次位置了
+• 修复关闭“显示输入法按钮占位区域“时每次开机后输入法底栏空间切换语言图标残留
+• 修复关闭“显示输入法按钮占位区域“时每次开机后输入法底栏空间语言切换图标溢出抢占删除字符按钮的空间的问题
+• 修复 USB 配置屏幕解锁后固定跳回 MTP 模式的问题，现在取决于你的首选值，首选默认值是仅充电
+• 上游内核代码更新
+• BakaSU 更新到 v4.2.0-35277
+• Susfs 更新到 v2.4.0
+• 更新人脸识别组件
+
+• Synced the latest source code and new features
+• Added detailed battery data localization and custom lock screen widget localization.
+• Fixed the suspended position of the PopUp small window; it now remembers the last position.
+• Fixed the issue where the language switch icon in the input method bottom bar would remain after every boot when "Show input method button placeholder area" is disabled.
+• Fixed the issue where the language switch icon in the input method bottom bar would overflow and take up the space of the delete character button after every boot when "Show input method button placeholder area" is disabled.
+• Fixed the issue where the USB configuration screen would always jump back to MTP mode after unlocking; it now depends on your preferred value, and the default preferred value is Charging only.
+• Upstream kernel code updated.
+• BakaSU updated to v4.2.0-35277.
+• Susfs updated to v2.4.0.
+• Face recognition component updated.
+
 ===== 2026-11-14 =====
 
 • 同步最新源码和新功能
