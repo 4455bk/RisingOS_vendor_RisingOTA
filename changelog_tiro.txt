@@ -3,6 +3,16 @@ Build type: Monthly
 Device: RedMagic 9 Pro
 Device maintainer: Runds
 
+===== 2026-11-17 =====
+
+• 补全 Knock lock 锁屏部件在锁屏界面的汉化
+• Knock lock 入口移到 Rising 自定义设置的锁屏设置
+• 增加类似 Flyme 的环形快捷启动小窗菜单
+
+• Completed the Chinese localization of the Knock lock lock screen widget on the lock screen
+• Moved the Knock lock entry to the lock screen settings under Rising Personalizations Settings
+• Added a Flyme-like circular quick-launch floating window menu
+
 ===== 2026-11-16 =====
 
 • 同步最新源码和新功能
